@@ -1,0 +1,50 @@
+html, body {
+	background-color: #fff;
+	color: #333;
+}
+
+body {
+	max-width: 600px;
+	margin: 1em auto;
+	font-family: monospace;
+	font-size: 12pt;
+}
+
+a {
+	text-decoration: none;
+	color: #00ae64;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+navigation a {
+	margin-right: 2em;
+}
+
+code { 
+	font-family: monospace;
+	background-color: #fafafa;
+	margin: 0 0.3em;
+	color: #000;
+}
+
+pre { 
+	font-family: monospace;
+	padding: 6px 12px 6px 12px;
+	overflow: auto;
+
+	border-left: 3px solid #f6f6f6;
+	background-color: #fafafa;
+	color: #222;
+}
+
+code span.comment { color: #666; }
+code span.string { color: #6a0; }
+code span.regexp { color: #719; }
+code span.punct { color: #17b; }
+code span.keyword { color: #f0b; }
+code span.number { color: #d83; }
+code span.var { color: #209; }
+code span.def { color: #923; }
